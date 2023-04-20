@@ -59,7 +59,6 @@ function calculateResult(calculationType) {
 
   createAndWriteOutput(mathOperator, initialResult, enteredNumber);
   writeToLog(calculationType, initialResult, enteredNumber, currentResult);
-  // }
 }
 
 function add() {
