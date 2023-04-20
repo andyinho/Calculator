@@ -38,7 +38,7 @@ function calculateResult(calculationType) {
       calculationType !== 'DIVIDE') ||
     !enteredNumber
   ) {
-    return; // stops scripts if any return true
+    return; // stops script if any return true
   }
 
   const initialResult = currentResult;
